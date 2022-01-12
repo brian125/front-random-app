@@ -1,0 +1,76 @@
+.form-control{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 20px;
+    margin: auto;
+}
+
+.campo{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #192846;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.label-text{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192846;
+    text-align: center;
+}
+
+/* From.jsx */
+.contenedor-from{
+    margin: 10px;
+}
+
+.text-area-from{
+    width: 300px;
+    height: 120px;
+    border-radius: 6px;
+    border: 1px solid #cecece;
+    margin: 15px;
+}
+
+.btn-from{
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #f9501f;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn-from:hover{
+    box-shadow: 3px 3px 3px #cccccc;
+}
+
+.container-app{
+    margin: 0 auto;
+}
+
+.App{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+footer{
+    text-align: center;
+}
